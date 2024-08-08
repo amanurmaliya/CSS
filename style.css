@@ -1,0 +1,98 @@
+body
+{
+    /* Resetting the by default values */
+    margin: 0;
+    padding: 0;
+
+    background-color: #2D1E6B;
+    color: rgb(245, 233, 228);
+    /* Here Gupter is the font that we have downloaded from the google */
+    /* We have given sans-serif just because of the reason that if in case Gupter do not
+    open then the sans-serif is by default installed in the browser */
+    font-family: 'Gupter', 'sans-serif';
+    box-sizing: border-box;
+
+}
+
+header
+{
+
+}
+
+#navbar{
+    /* 0 means keep margin from top and bottom 0 and auto means how much the width is keep is as it is */
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 90%;
+    height:10vh;
+    /* border: 2px solid red; */
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-container
+{
+    display: flex;
+    /* margin-right: 10px; */
+    justify-content: center;
+    align-items: center;
+}
+#logo-container img
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    
+}
+
+#nav-items
+{
+    display: flex;
+    /* border: 2px solid red; */
+    margin: 20px;
+    padding: 20px;
+    gap: 25px;
+
+    /* This will remove the dot all around the list */
+    list-style: none;
+    /* justify-content: space-between; */
+
+    font-weight: bold;
+}
+
+/* If anyone takes the cursor inside the li then make the cursor to be a pointer */
+#nav-items li{
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: end;    
+}
+
+.right .shop img{
+    margin-left: 140px ;
+}
+
+#main-header{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    position: relative;
+    width: 100%;
+}
+
+.right-photo {
+    position: absolute; /* Position it absolutely within the parent */
+    right: 0; /* Align it to the right edge of the parent */
+    top: 0; /* Align it to the top edge of the parent */
+    height: 100%; /* Make it take full height of the parent */
+}
+
+.right-photo img {
+    height: 100%; /* Ensure image scales with the container */
+    width: auto; /* Maintain aspect ratio */
+}
