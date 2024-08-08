@@ -82,17 +82,4 @@ header
     justify-content: flex-end;
     color: white;
     position: relative;
-    width: 100%;
-}
-
-.right-photo {
-    position: absolute; /* Position it absolutely within the parent */
-    right: 0; /* Align it to the right edge of the parent */
-    top: 0; /* Align it to the top edge of the parent */
-    height: 100%; /* Make it take full height of the parent */
-}
-
-.right-photo img {
-    height: 100%; /* Ensure image scales with the container */
-    width: auto; /* Maintain aspect ratio */
 }
